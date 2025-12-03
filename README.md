@@ -73,13 +73,15 @@ Create User
 "available": true
 }
 ---
-🧩 Architecture
+## 🧩 Architecture
 src/main/kotlin/dev/yukado/quarkus/
+\\\
 ├── model/        # Entities
 ├── repository/   # Repositories
 ├── resource/     # REST Controllers
 ├── service/      # Business logic (e.g. JwtService)
 └── Application.kt # Main class
+\\\
 ---
 📜 License
 This project is a showcase and demo. Author: Yusuf Kagan Dogruyol (yukado)
